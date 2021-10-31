@@ -1,19 +1,5 @@
 puts "🌱 Seeding spices..."
 
-# todo_text = ["call mom", "go to gym", "pick up children after school", "build a cool API", "go to work"]
-
-# Category.create(name: "Code")
-# Category.create(name: "Food")
-# Category.create(name: "Money")
-# Category.create(name: "Misc")
-
-# Category.all.each do |category|
-#     2.times do
-#         Todo.create(text: todo_text.sample, category_id: category.id)
-#   end
-# end
-
-
 Category.create(name: "Code")
 Category.create(name: "Food")
 Category.create(name: "Money")
